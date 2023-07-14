@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<style>
+			* {
+				font-size: 24px;
+			}
+			.parent {
+				display: flex;
+				flex-direction: column;
+				padding: 24px;
+				width: 25%;
+				border: 1px solid gray;
+				border-radius: 10px;
+				margin: 0 auto;
+			}
+
+
+			input {
+				border: 1px solid gray;
+				border-radius: 5px;
+				padding: 12px;
+				margin: 0 0 12px 0;
+			}
+
+			input:focus {
+				outline: 2px solid green;
+			}
+
+			button{
+				margin: 0 0 12px 0;
+			}
+			button:hover {
+				cursor: pointer;
+				background-color: skyblue;
+			}
+
+			a {
+				font-size: 14px;
+			}
+
+			.btn {
+				padding: 12px;
+				border: 0;
+				border-radius: 5px;
+				color: white;
+			}
+
+			.blue {
+				background-color: #1877f2;
+			}
+			.green {
+				background-color: #36a420;
+			}
+
+			.parent-2 {
+				display: flex;
+				justify-content: center;
+				margin: 0 0 12px 0;
+			}
+
+			hr {
+				width: 100%;
+			}
+		</style>
+	</head>
+
+
+	<body>
+		<div class="parent">
+			<input type="text">
+			<input type="password">
+			<button class="btn blue">Log In</button>
+			<div class="parent-2">
+				<a href="#">Forget Password?</a>
+			</div>
+			<hr>
+			<button class="btn green">Create new account</button>
+		</div>
+	</body>
+</html>
